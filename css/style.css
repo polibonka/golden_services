@@ -129,31 +129,47 @@ body {
 .contact_form input {
   fill: #fff;
   border: 1px solid #ccc;
-  height: 50px;
   width: 455px;
   padding: 12px 0px 21px 20px;
   display: block;
+  text-transform: uppercase;
+  color: #bbb;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.35px;
+  border-radius: 4px;
 }
 
 .contact_form textarea {
   width: 458px;
-  height: 212px;
   fill: #fff;
   border: 1px solid #ccc;
   padding-top: 14px;
   padding-left: 22px;
+  text-transform: uppercase;
+  color: #bbb;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.35px;
+  border-radius: 4px;
 }
 
 .contact_form_wrapper {
   display: flex;
   flex-direction: column;
   gap: 28px;
+  padding-right: 28px;
 }
 
 .contact_form {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   margin-top: 116px;
 }
 
